@@ -1,0 +1,31 @@
+Haskell 1.0
+
+From 1987-1990 the language was designed
+1990 Haskell 1.0 specification was releast
+	It was 125 pages long
+	http://haskell.org/definition/haskell-report-1.0.ps.gz
+1991 Haskell 1.1 is released on April 1, 1990
+	Has spawned a history of April fools jokes
+	153 pages
+	Tidy up release
+	Added "let" expressions
+1992 Haskell 1.2 is released
+	164 pages
+	"minor changes"
+1996 Haskell 1.3 
+	Biggest change so far 
+	Library's support was added for portability
+	Monad IO
+	Some classes generalized into constructor classes
+	Algebraic data types extended
+1997 Haskell 1.4
+	"139 + 73" pages 
+	List comprehensions generalized to arbitrary monads
+1999 Haskell 98 Report
+	"150 +89" pages
+	List comprehensions changed back to lists
+Haskell 2010
+	Adds a way to interface into other languages functions
+	Fixes syntax issues
+	disallows n-plus-k 
+
