@@ -1,7 +1,15 @@
 fib 0 = 0
 fib 1 = 1
 fib n = fib(n-1)+fib(n-2)
-
+invert s
+    | ((length s) == 0) =  "" 
+    | otherwise = (invert (drop 1 s)) ++ (take 1 s)
+    
+dectoBin n
+    | n < 1 = ""
+    | otherwise =  print (dectoBin (div n 2)) 
 
 main = do putStrLn "Hello, World!"
           print (fib 10)
+          print (invert "hello")
+          dectoBin 1
