@@ -1,0 +1,33 @@
+Haskell is/does:
+	Purely Functional
+	Statically Typed
+	Type Inference
+	Concurrent
+	Lazy
+	Supports Packages
+
+What does this mean?
+
+Purely Functional
+	It cannot cause side effects on any parameter
+	IO is written as a description of an instruction
+
+Statically Timed
+	At compile time every arguement is typed
+	If the types do not flow then it fails at compile type
+
+Type Inference
+	Does not require explicit descriptions of type
+	The compiler will try to figure out what types are needed
+
+Concurrent
+	Without side effects parellelization of code is straightfoward
+	GHC, the main compiler, supports concurrent code 
+
+Lazy
+	Functions are not computed until their result is needed
+
+Supports Packages
+	Over 6000 public packages available
+
+source haskell.org
