@@ -1,0 +1,35 @@
+Installing and Running Haskell
+
+1.  Installation
+    There are many methods of installing Haskell onto your machine. 
+    Below is a simple method of going about it:
+    
+    *   Stack build tool
+        This is by far the easiest way to get started with Haskell. 
+        This will automate the installation and management 
+        of the GHC compiler, libraries and other build tools.
+        To install:
+        
+        For Mac OSX users:
+          Run the following command into the terminal window:
+          $ curl -sSL https://get.haskellStack.org/ | sh
+          
+        For Linux users:
+          Run the following command into the terminal window:
+          $ wget -q0- https://get.haskellstack.org/ | sh
+          
+        For Windows users:
+          There are installers for both 64-bit and 32-bit systems.
+          You can find the downloads here:
+          https://haskell-lang.org/get-started/windows
+    
+2.  Running the Haskell Interpreter
+    Once installed, open a terminal and type 'ghci' (no apostrophes) 
+    at the command prompt. If on Windows, you choose WinGHCI in the
+    start menu. Once that is done, you will be presented with a prompt 
+    that awaits your input.
+    
+    Alternatively, you can compile an already existing program by
+    using the following command:
+    
+    $ ghci [command-line-options-and-input-files]
