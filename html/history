@@ -29,3 +29,6 @@ Haskell 2010
 	Fixes syntax issues
 	disallows n-plus-k 
 
+source 
+http://research.microsoft.com/en-us/um/people/simonpj/papers/history-of-haskell/history.pdf
+https://www.haskell.org/onlinereport/haskell2010/
