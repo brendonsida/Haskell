@@ -9,7 +9,13 @@ dectoBin n
     | n < 1 = ""
     | otherwise =  print (dectoBin (div n 2)) 
 
+-- basic implementation of powerMod
+powerMod a 1 n = mod a n 
+powerMod a b n = (a*(pmod a (b-1) n)) `mod` n
+
 main = do putStrLn "Hello, World!"
           print (fib 10)
           print (invert "hello")
           dectoBin 1
+
+		  
